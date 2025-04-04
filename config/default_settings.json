@@ -1,0 +1,47 @@
+{
+    "server": {
+        "host": "127.0.0.1",
+        "port": 8000,
+        "debug": false
+    },
+    "avatar": {
+        "enabled": true,
+        "position": "bottom-right",
+        "size": "medium"
+    },
+    "angel_server_capture": {
+        "url": "http://localhost:5000",
+        "api_key": "",
+        "polling_interval": 10
+    },
+    "priorities": {
+        "high_priority_duration": 60,
+        "medium_priority_duration": 300,
+        "thresholds": {
+            "high": 80,
+            "medium": 50,
+            "low": 20
+        }
+    },
+    "recommendations": {
+        "medication_times": ["08:00", "12:00", "18:00", "22:00"],
+        "meal_times": ["07:30", "12:30", "19:00"],
+        "weather_check_times": ["07:00", "12:00", "18:00"]
+    },
+    "weather": {
+        "api_key": "",
+        "location": "Paris,FR"
+    },
+    "notifications": {
+        "enable_desktop": true,
+        "sound": true,
+        "duration": 10
+    },
+    "intrusive_events": {
+        "whatsapp_call": true,
+        "phone_call": true,
+        "urgent_email": true,
+        "weather_alert": true,
+        "sms": true
+    }
+}
